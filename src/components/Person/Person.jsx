@@ -1,10 +1,10 @@
+const PARTNER_ROLE = {
+  husband: 'husband',
+  wife: 'wife',
+};
+
 export const Person = ({ person }) => {
   const { name, age, sex, isMarried, partnerName } = person;
-
-  const PARTNER_ROLE = {
-    husband: 'husband',
-    wife: 'wife',
-  };
 
   return (
     <section className="Person">
